@@ -27,14 +27,14 @@ with pathlib.Path('requirements.txt').open() as requirements_txt:
     ]
 
 setuptools.setup(
-    name="pyfunctions",
+    name="flinch",
     version=version,
     author="Pankaj Rawat",
     author_email="pankajr141@gmail.com",
     description="python functions",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pankajr141/pyfunctions",
+    url="https://github.com/pankajr141/flinch",
     packages=setuptools.find_packages(),
     classifiers=(
         "Programming Language :: Python :: 3",
