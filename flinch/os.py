@@ -1,5 +1,3 @@
-from asyncio import exceptions
-from msilib import Directory
 import os
 from os import walk
 
